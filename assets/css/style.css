@@ -137,13 +137,13 @@ li > a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .link > a {
         width: 60%;
         font-size: 80%;
     }
 
     .social-media li {
-        margin: 3rem;
+        margin: 2rem;
     }
 }
