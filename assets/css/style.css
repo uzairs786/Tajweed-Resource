@@ -68,22 +68,14 @@ p {
     text-align: center;
 }
 
-.line {
-    border: 2px solid #555f6b;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-section > a {
+.link > a {
     color: #555f6b;
     padding: 1rem;
     border-radius: 1%;
     background: #94b1d1;
 }
 
-section > a:hover {
+.link > a:hover {
     color: #fafafa;
     background-color: #555f6b;
 }
@@ -125,4 +117,33 @@ footer p {
 
 li > a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .subheading {
+        font-size: 80%;
+    }
+
+    p, li {
+        font-size: 80%;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .link > a {
+        width: 60%;
+        font-size: 80%;
+    }
+
+    .social-media li {
+        margin: 3rem;
+    }
 }
